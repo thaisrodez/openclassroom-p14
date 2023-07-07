@@ -13,5 +13,3 @@ export const employeesSlice = createSlice({
 })
 
 export const { addEmployee } = employeesSlice.actions
-
-export const selectEmployees = (state) => state.employees

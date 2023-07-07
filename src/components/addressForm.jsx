@@ -30,6 +30,6 @@ export function AddressForm({ handleChange, formInputs, handleSelectChange }) {
 
 AddressForm.propTypes = {
   handleChange: PropTypes.func,
-   formInputs: PropTypes.func,
-    handleSelectChange: PropTypes.func
-   }
+  formInputs: PropTypes.object,
+  handleSelectChange: PropTypes.func
+}

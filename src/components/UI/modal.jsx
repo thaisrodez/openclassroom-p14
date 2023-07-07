@@ -34,7 +34,7 @@ export function Modal({ open, setOpenModal, content }) {
 }
 
 Modal.propTypes = {
-  open: PropTypes.boolean,
+  open: PropTypes.bool,
   setOpenModal: PropTypes.func,
   content:PropTypes.string,
 }
