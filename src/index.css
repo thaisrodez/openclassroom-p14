@@ -12,7 +12,7 @@
   }
 
   .label {
-    @apply block py-2 text-gray-900 sm: text-sm sm:leading-6;
+    @apply block py-2 text-gray-900 sm:text-sm sm:leading-6;
   }
 
   .input {
