@@ -1,10 +1,12 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export function Select({ label, name, id, options, onChange }) {
   return (
     <>
-      <label htmlFor={id} className='label'>{label}</label>
-      <select name={name} id={id} className='input' onChange={onChange}>
+      <label htmlFor={id} className="label">
+        {label}
+      </label>
+      <select name={name} id={id} className="input" onChange={onChange}>
         {options.map((option) => (
           <option key={option.key} value={option.name}>
             {option.name}
@@ -12,7 +14,7 @@ export function Select({ label, name, id, options, onChange }) {
         ))}
       </select>
     </>
-  )
+  );
 }
 
 Select.propTypes = {
@@ -20,5 +22,5 @@ Select.propTypes = {
   name: PropTypes.string,
   id: PropTypes.string,
   options: PropTypes.array,
-  onChange: PropTypes.func
-}
+  onChange: PropTypes.func,
+};
